@@ -11,7 +11,7 @@ WORKDIR /cartier/codebase
 
 #ARG cartier_branch
 
-RUN git clone https://github.com/haifengrundadi/cartier.git
+RUN git clone https://github.com/mcbobo/cej.git cartier
 
 WORKDIR /cartier/codebase/cartier
 
